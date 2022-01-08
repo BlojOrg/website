@@ -876,16 +876,16 @@ section {
   display: inline-block;
   transition: 0.3s;
 }
-.portfolio .portfolio-wrap .portfolio-links a:hover {
+.portfolio .portfolio-wrap .portfolio-links a {
   color: #6ec083;
 }
-.portfolio .portfolio-wrap:hover::before {
+.portfolio .portfolio-wrap::before {
   opacity: 1;
 }
-.portfolio .portfolio-wrap:hover img {
+.portfolio .portfolio-wrap img {
   transform: scale(1.2);
 }
-.portfolio .portfolio-wrap:hover .portfolio-info {
+.portfolio .portfolio-wrap .portfolio-info {
   opacity: 1;
 }
 
