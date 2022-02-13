@@ -513,6 +513,14 @@ section {
   }
 }
 
+.email p {
+  margin-bottom: 0 !important;
+}
+
+.phone p {
+  margin-bottom: 0 !important;
+}
+
 /*--------------------------------------------------------------
 # Featured Services
 --------------------------------------------------------------*/
@@ -622,6 +630,16 @@ section {
     padding: 40px 0;
   }
 }
+
+@media (max-width: 768px) {
+  p{
+    font-size: 18px !important;
+  }
+  .about .content h3 {
+    font-size: 20px !important;
+}
+}
+
 
 /*--------------------------------------------------------------
 # Our Clients
